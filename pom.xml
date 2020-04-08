@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.muskteer</groupId>
-	<artifactId>muskteer-message-queue</artifactId>
+	<artifactId>mq</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
-	<name>muskteer-message-queue</name>
+	<name>mq</name>
 	<properties>
 		<project.javax.version>7.0</project.javax.version>
 		<maven.test.skip>true</maven.test.skip>
