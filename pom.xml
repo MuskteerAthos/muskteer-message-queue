@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.muskteer</groupId>
-	<artifactId>mq</artifactId>
-	<version>0.0.1</version>
+	<groupId>com.data2</groupId>
+	<artifactId>kafka-jms</artifactId>
+	<version>1.0.2</version>
 	<packaging>jar</packaging>
 
-	<name>mq</name>
+	<name>kafka-jms</name>
 	<properties>
 		<project.javax.version>7.0</project.javax.version>
 		<maven.test.skip>true</maven.test.skip>
@@ -23,7 +23,6 @@
 			<version>${project.javax.version}</version>
 		</dependency>
 		<!-- activemq -->
-
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
 			<artifactId>activemq-all</artifactId>
@@ -37,19 +36,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<version>1.7.7</version>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-			<version>1.7.7</version>
-		</dependency>
-		<dependency>
-			<groupId>commons-lang</groupId>
-			<artifactId>commons-lang</artifactId>
-			<version>2.6</version>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.4</version>
 		</dependency>
 	</dependencies>
 	<build>
@@ -59,9 +48,9 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>1.7</source>
-					<target>1.7</target>
-					<compilerVersion>1.7</compilerVersion>
+					<source>1.8</source>
+					<target>1.8</target>
+					<compilerVersion>1.8</compilerVersion>
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>

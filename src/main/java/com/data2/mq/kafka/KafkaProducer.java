@@ -1,4 +1,4 @@
-package com.muskteer.kafka;
+package com.data2.mq.kafka;
 
 import java.util.Map;
 import java.util.Properties;
@@ -14,7 +14,7 @@ public class KafkaProducer {
 		props.put("serializer.class", "kafka.serializer.StringEncoder");
 		props.put("metadata.broker.list", "10.143.130.62:9096");
 		props.put("request.required.acks", 1);
-		props.put("partitioner.class", "com.muskteer.kafka.Partion");
+		props.put("partitioner.class", "Partion");
 		props.put("producer.type", "async");//异步
 		props.put("compression.codec", "gzip");
 		@SuppressWarnings("unused")

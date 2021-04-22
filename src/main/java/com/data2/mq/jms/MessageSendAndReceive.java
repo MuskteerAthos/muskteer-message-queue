@@ -1,4 +1,4 @@
-package com.muskteer.jms;
+package com.data2.mq.jms;
 
 /**
  * @author Administrator

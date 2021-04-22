@@ -1,4 +1,4 @@
-package com.muskteer.kafka;
+package com.data2.mq.kafka;
 
 import kafka.producer.Partitioner;
 
